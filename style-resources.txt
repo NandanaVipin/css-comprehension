@@ -1,0 +1,25 @@
+/* General styles */
+body {
+    margin: 0;
+    background-color: #dcdcdc;
+}
+
+html {
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+}
+
+/* Card container */
+.card {
+    width: 36em;
+    height: 23em;
+    margin: 4em auto;
+    background-color: tomato;
+    border: 0.3em solid black;
+    border-radius: 1.5em;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Card header */
+.card header {
+    background-image

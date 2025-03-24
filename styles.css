@@ -1,0 +1,72 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card container */
+.card {
+    width: 40em;
+    height: 24em;
+    margin: 4em auto;
+    background-color: lightcoral;
+    border: 0.3em solid #222;
+    border-radius: 1.2em;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+/* Card header */
+.card header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0));
+    padding: 1em;
+    border-bottom: 0.2em solid #222;
+}
+
+/* Card footer */
+.card footer {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.2));
+    padding: 1em;
+    border-top: 0.2em solid #222;
+}
+
+/* Card article */
+.card article {
+    height: 13em;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Image styling */
+.card article img {
+    max-height: 100%;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Text styling */
+h2, p {
+    margin: 0;
+}
+
+.card header h2 {
+    color: #fff;
+    font-size: 2.2em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card footer p {
+    color: #fff;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.card article p {
+    font-size: 1.3em;
+    color: #333;
+}
